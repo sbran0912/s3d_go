@@ -19,7 +19,7 @@
 GO  ?= go
 BIN := bin
 
-APP_NAMES := beispiel vorlage instanzen ray boids rocket vehic
+APP_NAMES := beispiel vorlage instanzen ray boids rocket vehic path3d
 APP_BINS  := $(addprefix $(BIN)/,$(APP_NAMES))
 
 .PHONY: all build apps vet test clean run $(APP_BINS) $(addprefix run-,$(APP_NAMES))
